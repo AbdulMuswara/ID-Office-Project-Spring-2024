@@ -1,0 +1,14 @@
+Please Create This Table in mySQL
+
+CREATE TABLE 'students'(
+'idstudents' int NOT NULL AUTO_INCREMENT,
+'First' varchar(45) NOT NULL,
+'Middle' varchar(45) NOT NULL,
+'DOB' varchar(45) NOT NULL,
+'Year' varchar(45) NOT NULL,
+'Email' varchar(45) NOT NULL,
+'Address' varchar(45) NOT NULL,
+'Phone' varchar(45) NOT NULL,
+'EMPLID' varchar(45) NOT NULL,
+PRIMARY KEY ('idstudents')
+)
